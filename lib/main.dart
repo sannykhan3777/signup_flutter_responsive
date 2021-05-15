@@ -153,6 +153,30 @@ class _MyAppState extends State<MyApp> {
                       ),
                     ),
                   ),
+                  SizedBox(
+                    height: 30.0,
+                  ),
+                  Container(
+                    width: 170.0,
+                    height: 50.0,
+                    decoration: BoxDecoration(
+                      color: Colors.teal.shade700,
+                      borderRadius: BorderRadius.circular(30),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.teal.shade900,
+                          blurRadius: 2.0,
+                          spreadRadius: 0.0,
+                          offset: Offset(0.0 , 2.0 ), // shadow direction: bottom right
+                        )
+                      ],
+                    ),
+                    margin:
+                    EdgeInsets.symmetric(vertical: 0.0, horizontal: 50.0),
+                    child: Text("Sign Up" , style: TextStyle(fontFamily: "Pacifico" , fontWeight: FontWeight.bold , fontSize: 25.0 , color: Colors.white ),textAlign: TextAlign.center,),
+
+                  ),
+
                 ],
               ),
             ),

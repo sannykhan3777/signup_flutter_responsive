@@ -68,13 +68,14 @@ class _MyAppState extends State<MyApp> {
                     margin:
                         EdgeInsets.symmetric(vertical: 0.0, horizontal: 50.0),
                     child: TextField(
+                      cursorColor: Colors.teal.shade300,
                       decoration: InputDecoration(
                         border: InputBorder.none,
                         prefixIcon: Icon(
-                          Icons.call,
+                          Icons.person,
                           color: Colors.teal.shade300,
                         ),
-                        hintText: "Number",
+                        hintText: "Full Name",
                         hintStyle: TextStyle(
                           color: Colors.teal.shade300,
                         ),
